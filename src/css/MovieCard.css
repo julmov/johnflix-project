@@ -1,0 +1,144 @@
+/* MovieCard.css */
+
+/* Style for the movie card container */
+.movieCard {
+  position: relative;
+  z-index: 3;
+  width: 320px;
+  height: 460px;
+  background-color: #141414;
+  margin: 0 auto; /* Center horizontally */
+  overflow:visible; /* Ensure child elements don't overflow */
+  cursor: pointer; /* Change cursor on hover */
+  margin-top: -200px;
+  margin-left: -60px;
+  border-radius: 5px !important; /* Apply 5px border radius */
+}
+
+/* Style for the movie poster image */
+.movieCardPoster {
+  width: 100%; /* Occupy full width of card */
+  height: 260px;
+  object-fit: cover; /* Cover the container */
+  position: relative;
+  z-index: 3;
+  border-top-left-radius: 5px; /* Top-left rounded corner */
+  border-top-right-radius: 5px;
+}
+
+/* Style for the movie card info */
+.movieCardInfo {
+  position: absolute;
+  bottom: 0; /* Align at the bottom of the card */
+  left: 0;
+  width: 100%; /* Adjust width to include negative margin */
+  height: 200px; /* Let the height be determined by content */
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 5px 5px; /* Rounded corners only at the bottom */
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 3; /* Ensure text is above the image */
+  /* Add negative margin to align with card's border */
+}
+
+/* Style for the movie card title */
+.movieCardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* Style for other movie card content */
+.movieCardContent {
+  font-size: 14px;
+  position: relative;
+  z-index: 3;
+  border-radius: 5px;
+}
+
+.movieCard:hover .movieCardInfo {
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.iconRow{
+   
+    margin-right: -45px;
+    width: 100%;
+}
+
+.playIcon2{
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+    border: 2px solid rgb(148, 146, 146);
+    border-radius: 50px;
+    font-size: 18px;
+    width: 18px;
+}
+
+.icon{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(148, 146, 146);
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.chevronIcon{
+    margin-left: 100px;
+     padding: 10px;
+   margin-bottom: 5px;
+    border: 2px solid rgb(148, 146, 146);
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.cinemaInfoRow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.cinemaInfoRow p{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hd{
+    border: solid 1px rgb(128, 125, 125);
+    font-size: 10px;
+    font-weight: 800;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 16px;
+   
+    
+}
+
+.rating{
+    margin-top: -5px;
+    border: solid 2px white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    font-weight: bold;
+    padding-bottom: 1px;
+    border-radius: 50px;
+}
+
+.genre{
+    font-size: 18px;
+}

@@ -1,0 +1,141 @@
+.menu-options {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #000000;
+  width: 240px;
+  border: 1px solid #454545;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.signOut{
+background-color: #000000;
+ border: 1px solid #454545;
+ width: 240px;
+ height: 60px;
+ margin-left: -10px;
+ color: white;
+}
+
+.bell-container {
+  position: relative;
+}
+
+.bell-container:hover .menu-options {
+  display: block;
+}
+
+.menu-options p {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+ text-align: left;
+  
+  cursor: pointer;
+}
+
+.menu-options p:hover {
+  background-color: #050404;
+}
+
+
+.smallIcon{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    margin-top: -5px;
+}
+
+.profileIcons{
+    font-size: 20px;
+    color: #c6c6c6;
+    margin: 5px;
+    margin-right: 15px;
+    margin-top: 13px;
+}
+
+.iconText{
+    margin-top: 10px;
+}
+
+.optionBox{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.title{
+  margin-top: 170px;
+  padding-left: 40px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  font-size: 32px;
+}
+.description{
+  padding-left: 40px;
+  width: 40%;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: -20px;
+}
+.buttonsBox{
+   display: flex;
+  direction: row;
+      position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.playButton{
+height: 45px;
+width: 120px;
+font-weight: 550;
+font-size: 17px;
+ border-radius: 3px;
+border: none;
+}
+
+.playButton:hover{
+  background-color: rgba(128, 128, 128, 0.781);
+}
+
+
+.moreInfoButton{
+  font-weight: 550;
+font-size: 17px;
+  height: 45px;
+  width: 160px;
+  margin-left: 10px;
+  background-color: rgba(83, 82, 82, 0.769);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.moreInfoButton:hover{
+background-color: rgba(83, 82, 82, 0.527);
+}
+
+.infoIcon{
+  border: 1px solid white;
+  border-radius: 40px;
+  font-size: 14px;
+  width: 16px;
+  padding: 5px;
+  margin-right: 10px;
+
+}
+.playIcon{
+  padding-right: 10px;
+}
